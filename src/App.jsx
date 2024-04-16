@@ -1,7 +1,10 @@
 
-import CardTrilha from "./components/CardTrilha"
+import CardTrilha from "./components/CardTrilha";
 import useFetch from "./components/hooks/useFetch";
-import {useState, useEffect} from "react"
+import {useState, useEffect} from "react";
+import { Outlet } from 'react-router-dom'
+import HeaderMenu from "./components/headerMenu/HeaderMenu";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -17,8 +20,10 @@ function App() {
   
 
   return (
-    <>
-      
+  <>
+     <HeaderMenu></HeaderMenu>
+     <Outlet>
+  
       {
         trilhas &&
       trilhas.map((trilha,index) => (
@@ -26,8 +31,10 @@ function App() {
       ))
       
       } 
-      
-    </>
+
+    </Outlet>
+    <Footer></Footer>
+  </>
   )
 }
 
