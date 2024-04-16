@@ -1,5 +1,6 @@
 import * as PropTypes from 'prop-types'
 
+
 function CardTrilha({dadosTrilha}){
 
     return(
