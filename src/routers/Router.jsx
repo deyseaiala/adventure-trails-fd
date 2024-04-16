@@ -8,7 +8,7 @@ import ListaTrilhas from '../pages/ListaTrilhas.jsx';
  const routers = createBrowserRouter ([
     {
         path: "/",
-        element: <App />,
+        element: <App/>,
         children: [
             {
                 path: "/",
