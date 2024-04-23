@@ -14,10 +14,14 @@ import useFetch from "../components/hooks/useFetch.jsx";
                 setTrilhas(dados.trilhas);
             }
         }, [dados]);
+
+        function cadastrarNovaTrilha(dadosCadastro) {
+            setTrilhas ((trilha) => [...trilha, dadosCadastro])
+        }
     
 
     return (
-        <TrilhasContext.Provider value={{trilhas, setTrilhas}}>
+        <TrilhasContext.Provider value={{trilhas, setTrilhas, cadastrarNovaTrilha}}>
             {children}
         </TrilhasContext.Provider>
 

@@ -1,4 +1,5 @@
 import {Button} from "@mui/material"
+import {Link} from "react-router-dom"
 
 
 function Home() {
@@ -12,7 +13,7 @@ function Home() {
           <br/>
           <p>Junte-se à comunidade de entusiastas ao ar livre, compartilhe suas aventuras e inspire-se com as experiências de outros aventureiros. Prepare-se para explorar novos horizontes e se conectar com a natureza através do Adventure Trails!</p>
           <br/>
-          <Button variant="contained">Explorar trilhas</Button>
+          <Link to="/listaTrilhas"><Button variant="contained">Explorar trilhas</Button></Link>
        </div>
        <div className="exploreTrilha">
         <h1>Explore trilhas incríveis</h1>
@@ -21,7 +22,7 @@ function Home() {
        <div>
         <div>
           <p>Compartilhe fotos, dicas e localização das suas trilhas favoritas</p>
-          <Button variant="contained">Cadastrar nova trilha</Button>
+          <Link to="/cadastro"><Button variant="contained">Cadastrar nova trilha</Button></Link>
         </div>
         <div><img src="https://images.pexels.com/photos/172510/pexels-photo-172510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img></div>
        </div>

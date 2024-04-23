@@ -1,4 +1,4 @@
-import * as PropTypes from 'prop-types'
+//import * as PropTypes from 'prop-types'
 
 
 function CardTrilha({dadosTrilha}){
@@ -23,19 +23,19 @@ function CardTrilha({dadosTrilha}){
     )
 }
 
-CardTrilha.propTypes = {
-    dadosTrilha: PropTypes.exact({
-        nomeTrilha: PropTypes.string,
-        cidade: PropTypes.string,
-        estado: PropTypes.string,
-        duracao: PropTypes.number,
-        trajeto: PropTypes.number,
-        dificuldade: PropTypes.string,
-        tipo: PropTypes.string,
-        nomeUsuario: PropTypes.string,
-        urlImagem: PropTypes.string
-    })
-}
+//CardTrilha.propTypes = {
+//    dadosTrilha: PropTypes.exact({
+//        nomeTrilha: PropTypes.string,
+//        cidade: PropTypes.string,
+//        estado: PropTypes.string,
+//        duracao: PropTypes.number,
+//        trajeto: PropTypes.number,
+//        dificuldade: PropTypes.string,
+//        tipo: PropTypes.string,
+//        nomeUsuario: PropTypes.string,
+//        urlImagem: PropTypes.string
+//    })
+//}
 
 export default CardTrilha;
 
