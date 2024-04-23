@@ -38,3 +38,4 @@ CardTrilha.propTypes = {
 }
 
 export default CardTrilha;
+
