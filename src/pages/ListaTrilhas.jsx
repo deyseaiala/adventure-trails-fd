@@ -1,6 +1,7 @@
 import CardTrilha from "../components/CardTrilha/index.jsx";
 import { useContext } from "react";
 import { TrilhasContext } from "../context/TrilhasContext.jsx";
+import styles from './listaTrilhas.modules.css'
 
 
 function ListaTrilhas() {
