@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import {Button} from "@mui/material"
 import { useContext } from "react";
 import { TrilhasContext } from "../context/TrilhasContext";
-import styles from './cadastro.module.css';
+import styles from '../pages/cadastro.module.css'
 
 
 function Cadastro() {
