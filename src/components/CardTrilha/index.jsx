@@ -1,5 +1,5 @@
 //import * as PropTypes from 'prop-types'
-import styles from "./cardtrilha.module.css"
+import styles from "./CardTrilha.module.css"
 
 function CardTrilha({dadosTrilha}){
 
